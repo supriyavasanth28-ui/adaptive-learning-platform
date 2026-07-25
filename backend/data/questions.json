@@ -1,0 +1,352 @@
+{
+    "category":
+	[		
+		{
+			"name": "tense",
+			"default_type": "choice", 
+			"questions":
+			[
+				{
+					"question": "Tomorrow, I _______ good.",
+					"choices": ["was", "am", "will be", "were"],
+					"answer": ["will be"]					
+				},
+				{
+					"question": "Today ________ friday.",					
+					"choices": ["was", "is", "are", "were"],
+					"answer": ["is"]
+				},
+				{
+					"question": "Yesterday, I _______ science with Mary teacher.",
+					"choices": ["study", "studied", "will study"],
+					"answer": ["studied"]
+				},
+				{
+					"question": "Yesterday, I  _______ computer.",
+					"choices": ["watched", "watch", "will watch"],
+					"answer": ["watched"]
+				},
+				{
+					"question": "Tomorrow, I  _______ good at school.",
+					"choices": ["am", "was", "will be"],
+					"answer": ["will be"]
+				},
+				{
+					"question": "Yesterday, I _______ fish crackers and pepperoni pizza for my breakfast.",
+					"choices": ["will eat", "eat", "ate"],
+					"answer": ["ate"]
+				},
+				{
+					"question": "Yesterday, I went to the school and _______ the medal.",
+					"choices": ["will get", "get", "got"],
+					"answer": ["got"]
+				},
+				{
+					"question": "Tomorrow, I _______ the piano at the piano recital.",
+					"choices": ["will play", "play", "played"],
+					"answer": ["will play"]
+				},
+				{
+					"question": "Tomorrow, appa _______ go to work.",
+					"choices": ["will not", "did not", "do not", "does not"],
+					"answer": ["will not"]
+				},
+				{
+					"question": "Yesterday, I _______ hit anoyone.",
+					"choices": ["will not", "did not", "do not", "does not"],
+					"answer": ["did not"]
+				},
+				{
+					"question": "Appa _______ know how to swim.",
+					"choices": ["will not", "did not", "do not", "does not"],
+					"answer": ["does not"]
+				}
+				
+			]
+	
+		},		
+		{
+			"name": "connection",
+			"default_type": "choice", 
+			"questions":
+			[
+				{
+					"question": "You can get a dvd, __________ you need to study well.",
+					"choices": ["but", "otherwise", "then", "because", "so", "next", "also", "while"],
+					"answer": ["but"]
+				},
+				{
+					"question": "You have to study well, ___________ you will not get DVDS.",
+					"choices": ["but", "otherwise", "then", "because", "so", "next", "also", "while"],
+					"answer": ["otherwise"]
+				},
+				{
+					"question": "First, you study well, __________ we can buy a DVD.",
+					"choices": ["but", "otherwise", "then", "because", "so", "next", "also", "while"],
+					"answer": ["then"]
+				},
+				{
+					"question": "You did not study well, _________ you do not get a DVD.",
+					"choices": ["but", "otherwise", "then", "because", "so", "next", "also", "while"],
+					"answer": ["so"]
+				},
+				{
+					"question": "Theepak is a good singer, __________ he is good with computer.",
+					"choices": ["but", "otherwise", "then", "because", "so", "next", "also", "while"],
+					"answer": ["also"]
+				},
+				{
+					"question": "You can not laugh _________ studying.",
+					"choices": ["but", "otherwise", "then", "because", "so", "next", "also", "while"],
+					"answer": ["while"]
+				},
+				{
+					"question": "I got angry _________ I lost the game.",
+					"choices": ["but", "otherwise", "then", "because", "so", "next", "also", "while"],
+					"answer": ["because"]
+				},
+				{
+					"question": "I got mad _________ shouted loud.",
+					"choices": ["but", "and", "then", "because", "so", "next", "also", "while"],
+					"answer": ["and"]
+				},
+				{
+					"question": "I should not get mad _________ no one will like me.",
+					"choices": ["but", "otherwise", "then", "because", "so", "next", "also", "while"],
+					"answer": ["otherwise"]
+				},
+				{
+					"question": "I did not get mad today _________ I need a suprise.",
+					"choices": ["but", "otherwise", "then", "because", "so", "next", "also", "while"],
+					"answer": ["so"]
+				},
+				{
+					"question": "I will not get mad _________ I do not want anyone to hate me.",
+					"choices": ["but", "otherwise", "then", "because", "so", "next", "also", "while"],
+					"answer": ["because"]
+				},
+				{
+					"question": "I went to the value village, _______ I could not find VHS.",
+					"choices": ["but", "otherwise", "then", "because", "so", "next", "also", "while"],
+					"answer": ["but"]
+				}
+				
+			]			
+		},		
+		{
+			"name": "preposition",
+			"default_type": "choice", 
+			"questions":
+			[
+				{
+					"question": "Theepak is sitting ______ the chair.",
+					"answer": ["on"],
+					"type": "one_word"
+				},
+				{
+					"question": "Appa is hiding _______ the table.",
+					"answer": ["under"],
+					"type": "one_word"
+				},
+				{
+					"question": "The pencil is _______ the box.",
+					"answer": ["inside", "in"],
+					"type": "one_word"
+				},
+				{
+					"question": "The school starts ______ 8:45 AM.",
+					"answer": ["at"],
+					"type": "one_word"
+				},
+				{
+					"question": "I have skating class ______ every Thursday.",
+					"answer": ["on"],
+					"type": "one_word"				
+				},
+				{
+					"question": "We go to skating class _______ car.",
+					"answer": ["by"],
+					"type": "one_word"				
+				},
+				{
+					"question": "The cover ______ the DVD is nice",
+					"answer": ["of"],
+					"type": "one_word"				
+				},
+				{
+					"question": "This dvd belongs ______ me",
+					"answer": ["to"],
+					"type": "one_word"				
+				},
+				{
+					"question": "I want to walk myself ______ Lawfield elementary school",
+					"answer": ["to"],
+					"type": "one_word"				
+				},
+				{
+					"question": "I want ________ find Magic Box & Abirami DVD and VCD",
+					"answer": ["to"],
+					"type": "one_word"  				
+				}
+				
+			]			
+		},		
+		{
+			"name": "possessive",
+			"default_type": "choice", 
+			"questions":
+			[
+				{
+					"question": "I am brushing _____ teeth.",
+					"answer": ["my"],
+					"type": "one_word"  				
+				},
+				{
+					"question": "Appa is brushing _____ teeth.",
+					"answer": ["his"],
+					"type": "one_word"				
+				},
+				{
+					"question": "Amma is brushing _____ teeth.",
+					"answer": ["her"],
+					"type": "one_word"				
+				},
+				{
+					"question": "Thivya is brushing ______ teeth.",
+					"answer": ["her"],
+					"type": "one_word"				
+				},
+				{
+					"question": "They are brushing _______ teeth.",
+					"answer": ["their"],
+					"type": "one_word"				
+				},
+				{
+					"question": "You are having ______ lunch.",
+					"answer": ["your"],
+					"type": "one_word"				
+				},
+				{
+					"question": "Appa and amma are having _______ lunch.",
+					"answer": ["their"],
+					"type": "one_word"				
+				},
+				{
+					"question": "He is having _______ lunch.",
+					"answer": ["his"],
+					"type": "one_word"				
+				}
+				
+			]			
+		},
+		{
+			"name": "emotions",
+			"default_type": "choice", 
+			"questions":
+			[
+				{
+					"question": "Best thing to do when you get mad:",
+					"choices": ["cry", "shout", "hit someone", "be calm"],
+					"answer": ["be calm"]					
+				},
+				{
+					"question": "When someone loses a game, how do they feel?",					
+					"choices": ["mad", "sad", "happy", "surprised"],
+					"answer": ["sad"]
+				},
+				{
+					"question": "What is a bad thing to do when you get angry?",
+					"choices": ["be silent", "shout", "take a deep breath", "think about appa"],
+					"answer": ["shout"]
+				},
+				{
+					"question": "What makes you angry?",
+					"choices": ["making a mistake", "feeling hungry", "feeling sleepy", "getting a gift"],
+					"answer": ["making a mistake"]
+				},
+				{
+					"question": "What makes you angry?",
+					"choices": ["losing a game", "winning a game", "studying", "watching"],
+					"answer": ["losing a game"]
+				},
+				{
+					"question": "What makes you silly?",
+					"choices": ["losing a game", "winning a game", "studying", "too much watching"],
+					"answer": ["too much watching"]
+				},
+				{
+					"question": "What does not make you angry?",
+					"choices": ["losing a game", "making a mistake", "do not understand something", "someone talk to you"],
+					"answer": ["someone talk to you"]
+				}
+			]	
+		},
+		{
+			"name": "empathy",
+			"default_type": "choice", 
+			"questions":
+			[
+				{
+					"question": "Theepak and Tyvion played a game. Theepak won the game. How does Tyvion feel?",
+					"choices": ["mad", "sad", "happy", "surprised"],
+					"answer": ["sad"]				
+				},
+				{
+					"question": "Theepak and Tyvion played a game. Tyvion won the game. How does Tyvion feel?",					
+					"choices": ["mad", "sad", "happy", "surprised"],
+					"answer": ["happy"]
+				},
+				{
+					"question": "Theepak made a mistake in a math class. Math teacher tried to explain the mistake to Theepak, but Theepak said \"I can do it\" and did not allow the math teacher to talk. How does math teacher feel?",
+					"choices": ["mad", "sad", "happy", "proud"],
+					"answer": ["mad", "sad"]
+				},
+				{
+					"question": "Theepak made a mistake in a math class. Math teacher explained the mistake to Theepak. Theepak listened to the teacher carefully and tried again after teacher stopped explaining. How does math teacher feel?",
+					"choices": ["mad", "sad", "happy", "frustrated"],
+					"answer": ["happy"]
+				},
+				{
+					"question": "Sithappa fell down from the stairs. Theepak saw that, but he did not care and walked away. How does sithappa feel about Theepak action?",
+					"choices": ["happy", "sad", "proud"],
+					"answer": ["sad"]
+				},
+				{
+					"question": "Sithappa fell down from the stairs. Theepak saw that and helped sithappa to get up and asked \"are you ok, sithappa?\". How does sithappa feel about Theepak action?",
+					"choices": ["happy", "sad", "proud"],
+					"answer": ["happy", "proud"]
+				},
+				{
+					"question": "One day, Theepak got angry and bit Mrs. P?. How did Mrs.P feel?",
+					"choices": ["happy", "sad", "proud"],
+					"answer": ["sad"]
+				},
+				{
+					"question": "One day, Theepak lost a game at school and said \"it is ok to lose, I will try to win next time\". How did Madame Jones feel about Theepak behavior?",
+					"choices": ["mad", "sad", "proud"],
+					"answer": ["proud"]
+				},
+				{
+					"question": "One day, Theepak and Mike played a game. Mike won the game. Theepak said \"Well played, Mike\"? How does Mike feel?",
+					"choices": ["mad", "sad", "happy"],
+					"answer": ["happy"]
+				},
+				{
+					"question": "One day, Theepak and Mike played a game. Mike won the game. Theepak got mad and shouted? How does Mike feel?",
+					"choices": ["proud", "sad", "happy"],
+					"answer": ["sad"]
+				},
+				{
+					"question": "Akka got a low mark for a test and was sad. Theepak should feel ______ for akka?",
+					"choices": ["sad", "mad", "happy"],
+					"answer": ["sad"]
+				},
+				{
+					"question": "Teacher is talking to Theepak. Theepak looking somewhere instead of looking at teacher. How does teacher feel?",
+					"choices": ["disappointed", "excited", "happy"],
+					"answer": ["disappointed"]
+				}
+			]	
+		}
+	]
+}

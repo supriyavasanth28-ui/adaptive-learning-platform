@@ -1,0 +1,44 @@
+.student-selector {
+  width: 250px;
+}
+
+.student {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 12px;
+  cursor: pointer;
+}
+
+.student:hover {
+  background: #f2f2f2;
+}
+
+.student.active {
+  font-weight: bold;
+  background: #dff4ff;
+}
+
+.edit-button {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.student-actions {
+  display: flex;
+  gap: 6px;
+}
+
+.icon-button {
+  border: none;
+  background: none;
+  cursor: pointer;
+
+  font-size: 16px;
+}
+
+.delete {
+  color: red;
+}

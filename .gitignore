@@ -1,0 +1,29 @@
+# Python
+backend/venv/
+backend/__pycache__/
+backend/**/__pycache__/
+backend/**/*.pyc
+
+# React
+frontend/node_modules/
+frontend/build/
+
+# Environment variables
+.env
+backend/.env
+
+# Database files
+*.sqlite
+*.db
+
+# OS files
+.DS_Store
+Thumbs.db
+
+.vscode
+backup/ 
+libs/
+public/
+index.html 
+frontend/README.md
+frontend/.gitignore

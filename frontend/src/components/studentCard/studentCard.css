@@ -1,0 +1,11 @@
+.student-card {
+  border: 1px solid #ddd;
+
+  border-radius: 12px;
+
+  padding: 20px;
+
+  margin: 15px;
+
+  width: 250px;
+}
