@@ -10,9 +10,9 @@ import QuestionImage from "./questionImage";
 import Hint from "./hint";
 import QuizComplete from "./quizComplete";
 
-import QuestionDisplay from "../QuestionDisplay";
-import ChoiceInput from "../ChoiceInput";
-import TextInput from "../TextInput";
+import QuestionDisplay from "../questionDisplay";
+import ChoiceInput from "../choiceInput";
+import TextInput from "../textInput";
 
 import { getQuestion } from "../../api/questionAPI";
 import { submitAnswer as submitQuizAnswer } from "../../api/quizAPI";
