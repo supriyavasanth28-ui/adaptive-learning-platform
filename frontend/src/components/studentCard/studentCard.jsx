@@ -1,4 +1,4 @@
-import "./StudentCard.css";
+import "./studentCard.css";
 
 export default function StudentCard({ student, onSelect, onRename }) {
   return (

@@ -1,4 +1,4 @@
-import "./StudentSelector.css";
+import "./studentSelector.css";
 
 export default function StudentSelector({
   students = [],

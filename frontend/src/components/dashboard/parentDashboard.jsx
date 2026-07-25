@@ -1,4 +1,4 @@
-import "./ParentDashboard.css";
+import "./parentDashboard.css";
 
 export default function ParentDashboard({ dashboard }) {
   if (!dashboard) {
