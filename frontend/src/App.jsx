@@ -1,4 +1,6 @@
 import { useState, useEffect } from "react";
+const API_URL = import.meta.env.VITE_API_URL;
+
 import Quiz from "./components/quiz/quiz";
 import StudentSelector from "./pages/StudentSelector/StudentSelector";
 import { QuizEngine } from "./engine/quizEngine";
@@ -21,7 +23,7 @@ function App() {
 
   useEffect(() => {
     async function loadStudents() {
-      const response = await fetch("http://localhost:5000/api/students");
+      const response = await fetch(`${API_URL}/api/students`);
       const data = await response.json();
 
       setStudents(data);

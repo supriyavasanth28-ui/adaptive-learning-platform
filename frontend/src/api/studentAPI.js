@@ -1,4 +1,4 @@
-const API_URL = "http://localhost:5000";
+const API_URL = import.meta.env.VITE_API_URL;
 
 export async function startQuiz(studentId) {
   const response = await fetch(`${API_URL}/api/student/start`, {
@@ -72,7 +72,7 @@ export async function createStudent(name) {
 
 export async function renameStudent(studentId, name) {
   const response = await fetch(
-    `http://localhost:5000/api/student/${studentId}`,
+    `${API_URL}/api/student/${studentId}`,
     {
       method: "PUT",
 

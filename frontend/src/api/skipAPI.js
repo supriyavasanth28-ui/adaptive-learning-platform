@@ -1,5 +1,7 @@
+const API_URL = import.meta.env.VITE_API_URL;
+
 export async function skipQuizQuestion(studentId) {
-  const response = await fetch("http://localhost:5000/api/student/skip", {
+  const response = await fetch(`${API_URL}/api/student/skip`, {
     method: "POST",
 
     headers: {
