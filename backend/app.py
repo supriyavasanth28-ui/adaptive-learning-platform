@@ -322,7 +322,6 @@ def delete_student_route(id):
 if __name__ == "__main__":
 
     create_tables()
-
     initialize_server()
 
     app.run(debug=True, port=5000)
