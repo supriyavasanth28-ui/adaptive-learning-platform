@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 const API_URL = import.meta.env.VITE_API_URL;
 
 import Quiz from "./components/quiz/quiz";
-import StudentSelector from "./pages/StudentSelector/studentSelector";
+import StudentSelector from "./pages/studentSelector/studentSelector";
 import { QuizEngine } from "./engine/quizEngine";
 import { questions } from "./data/questions";
 import { settings } from "./data/settings";
